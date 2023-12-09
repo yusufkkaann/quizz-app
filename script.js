@@ -108,7 +108,6 @@ nextBtn.addEventListener("click", () => {
     handleNextButton();
   } else {
     startQuiz();
-    nextBtn.innerHTML = "Tekrar Başla";
   }
 });
 startQuiz();
